@@ -34,6 +34,12 @@ public class Proyecto extends javax.swing.JFrame {
         jFrame1 = new javax.swing.JFrame();
         jMenuItem2 = new javax.swing.JMenuItem();
         escritorio = new javax.swing.JDesktopPane();
+        jcMousePanel1 = new jcMousePanel.jcMousePanel();
+        jcMousePanel2 = new jcMousePanel.jcMousePanel();
+        jcMousePanel3 = new jcMousePanel.jcMousePanel();
+        jcMousePanel4 = new jcMousePanel.jcMousePanel();
+        jcMousePanel5 = new jcMousePanel.jcMousePanel();
+        jLabel1 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu2 = new javax.swing.JMenu();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
@@ -66,16 +72,107 @@ public class Proyecto extends javax.swing.JFrame {
 
         escritorio.setBackground(new java.awt.Color(0, 255, 204));
 
+        jcMousePanel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ima2.jpeg"))); // NOI18N
+
+        jcMousePanel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/mascota.jpeg"))); // NOI18N
+
+        javax.swing.GroupLayout jcMousePanel2Layout = new javax.swing.GroupLayout(jcMousePanel2);
+        jcMousePanel2.setLayout(jcMousePanel2Layout);
+        jcMousePanel2Layout.setHorizontalGroup(
+            jcMousePanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 119, Short.MAX_VALUE)
+        );
+        jcMousePanel2Layout.setVerticalGroup(
+            jcMousePanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 106, Short.MAX_VALUE)
+        );
+
+        jcMousePanel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/personas.jpeg"))); // NOI18N
+
+        javax.swing.GroupLayout jcMousePanel3Layout = new javax.swing.GroupLayout(jcMousePanel3);
+        jcMousePanel3.setLayout(jcMousePanel3Layout);
+        jcMousePanel3Layout.setHorizontalGroup(
+            jcMousePanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        jcMousePanel3Layout.setVerticalGroup(
+            jcMousePanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+
+        jcMousePanel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/reglas.jpeg"))); // NOI18N
+
+        javax.swing.GroupLayout jcMousePanel4Layout = new javax.swing.GroupLayout(jcMousePanel4);
+        jcMousePanel4.setLayout(jcMousePanel4Layout);
+        jcMousePanel4Layout.setHorizontalGroup(
+            jcMousePanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        jcMousePanel4Layout.setVerticalGroup(
+            jcMousePanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+
+        jcMousePanel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cliente.jpeg"))); // NOI18N
+
+        javax.swing.GroupLayout jcMousePanel5Layout = new javax.swing.GroupLayout(jcMousePanel5);
+        jcMousePanel5.setLayout(jcMousePanel5Layout);
+        jcMousePanel5Layout.setHorizontalGroup(
+            jcMousePanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        jcMousePanel5Layout.setVerticalGroup(
+            jcMousePanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(204, 0, 204));
+        jLabel1.setText("MI SISTEMA DE VETERINARIA");
+
+        javax.swing.GroupLayout jcMousePanel1Layout = new javax.swing.GroupLayout(jcMousePanel1);
+        jcMousePanel1.setLayout(jcMousePanel1Layout);
+        jcMousePanel1Layout.setHorizontalGroup(
+            jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jcMousePanel1Layout.createSequentialGroup()
+                .addGroup(jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jcMousePanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jcMousePanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jcMousePanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jcMousePanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(49, 49, 49)
+                .addComponent(jLabel1)
+                .addContainerGap(27, Short.MAX_VALUE))
+        );
+        jcMousePanel1Layout.setVerticalGroup(
+            jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jcMousePanel1Layout.createSequentialGroup()
+                .addComponent(jcMousePanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jcMousePanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jcMousePanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jcMousePanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jcMousePanel1Layout.createSequentialGroup()
+                        .addGap(83, 83, 83)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addComponent(jcMousePanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 81, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout escritorioLayout = new javax.swing.GroupLayout(escritorio);
         escritorio.setLayout(escritorioLayout);
         escritorioLayout.setHorizontalGroup(
             escritorioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 504, Short.MAX_VALUE)
+            .addComponent(jcMousePanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         escritorioLayout.setVerticalGroup(
             escritorioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 243, Short.MAX_VALUE)
+            .addComponent(jcMousePanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
+        escritorio.setLayer(jcMousePanel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         jMenu2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Nixon\\Desktop\\reglas.jpeg")); // NOI18N
         jMenu2.setText("Registro Cliente");
@@ -120,7 +217,7 @@ public class Proyecto extends javax.swing.JFrame {
             }
         });
 
-        RbtnRegistroCitas.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_1, 0));
+        RbtnRegistroCitas.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_LEFT, java.awt.event.InputEvent.CTRL_MASK));
         RbtnRegistroCitas.setSelected(true);
         RbtnRegistroCitas.setText("Registro Citas");
         RbtnRegistroCitas.addActionListener(new java.awt.event.ActionListener() {
@@ -130,7 +227,7 @@ public class Proyecto extends javax.swing.JFrame {
         });
         jMenu8.add(RbtnRegistroCitas);
 
-        RbtnRegistroFechasdeVacunacion.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_2, 0));
+        RbtnRegistroFechasdeVacunacion.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_RIGHT, java.awt.event.InputEvent.CTRL_MASK));
         RbtnRegistroFechasdeVacunacion.setSelected(true);
         RbtnRegistroFechasdeVacunacion.setText("Registro Fechas de Vacunacion");
         RbtnRegistroFechasdeVacunacion.addActionListener(new java.awt.event.ActionListener() {
@@ -140,7 +237,7 @@ public class Proyecto extends javax.swing.JFrame {
         });
         jMenu8.add(RbtnRegistroFechasdeVacunacion);
 
-        RbtnRegistroEnfermadades.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_3, 0));
+        RbtnRegistroEnfermadades.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_KP_UP, java.awt.event.InputEvent.CTRL_MASK));
         RbtnRegistroEnfermadades.setSelected(true);
         RbtnRegistroEnfermadades.setText("Registro Enfermedades ");
         RbtnRegistroEnfermadades.addActionListener(new java.awt.event.ActionListener() {
@@ -254,6 +351,7 @@ public class Proyecto extends javax.swing.JFrame {
     private javax.swing.JRadioButtonMenuItem RbtnResgistroClientes;
     private javax.swing.JDesktopPane escritorio;
     private javax.swing.JFrame jFrame1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu8;
@@ -261,5 +359,10 @@ public class Proyecto extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JPopupMenu.Separator jSeparator1;
+    private jcMousePanel.jcMousePanel jcMousePanel1;
+    private jcMousePanel.jcMousePanel jcMousePanel2;
+    private jcMousePanel.jcMousePanel jcMousePanel3;
+    private jcMousePanel.jcMousePanel jcMousePanel4;
+    private jcMousePanel.jcMousePanel jcMousePanel5;
     // End of variables declaration//GEN-END:variables
 }
